@@ -3,7 +3,6 @@ var idCodeInput = document.querySelector("#id_code")
 idCodeInput.focus();
 
 
-
 // Certificación de código de entrada
 
 function accessApp(e){

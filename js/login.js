@@ -26,7 +26,7 @@ function accessApp(e){
             idCodeInput.value = "";
             idCodeInput.setAttribute('placeholder', 'Código incorrecto')
             setTimeout(function () {
-                idCodeInput.setAttribute('placeholder', '')
+                idCodeInput.setAttribute('placeholder', 'Inserte el código y presione [ENTER]')
             }, 600);
         }
     }

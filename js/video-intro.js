@@ -30,7 +30,7 @@ function accessApp(e){
         idCodeInput.value = "";
         idCodeInput.setAttribute('placeholder', 'Presione [ENTER] para continuar')
         setTimeout(function () {
-            idCodeInput.setAttribute('placeholder', '')
+            idCodeInput.setAttribute('placeholder', 'Presione [ENTER] para continuar')
         }, 600);
     }
 }

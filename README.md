@@ -1,1 +1,1 @@
-# feyman_AI
+# feynman_AI

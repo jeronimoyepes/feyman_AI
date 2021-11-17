@@ -203,7 +203,7 @@ body {
 }
 
 .left_side {
-  min-width: 335px;
+  width: 335px;
   margin-right: 25px;
 }
 

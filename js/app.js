@@ -110,6 +110,18 @@ function accessApp(e){
             break romper;
             
         }
+
+        if (idCodeInput.value == "pdf") {
+
+            window.open("pages/propuesta_plan_trabajo_mauricio_hincapie_m.pdf");
+
+            audioAccepted.play()
+            idCodeInput.value = "";
+            break romper;
+            
+        }
+
+
         
         // Si existe informe_AI y el input = repo se muestra el video
         if (iDocument.querySelector("#report video") && idCodeInput.value == "repo") {

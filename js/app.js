@@ -90,7 +90,7 @@ function accessApp(e){
             idCodeInput.value = "";
             idCodeInput.setAttribute('placeholder', 'Digite un comando')
             setTimeout(function () {
-                idCodeInput.setAttribute('placeholder', 'Ingrese un /comando g presione [ENTER]')
+                idCodeInput.setAttribute('placeholder', 'Ingrese un /comando y presione [ENTER]')
             }, 600);
             break romper;
         }
@@ -185,7 +185,7 @@ function accessApp(e){
                 idCodeInput.value = "";
                 idCodeInput.setAttribute('placeholder', 'Comando incorrecto');
                 setTimeout(function () {idCodeInput.setAttribute(
-                    'placeholder', 'Ingresa un /comando g presiona [ENTER]');
+                    'placeholder', 'Ingrese un /comando y presione [ENTER]');
                 }, 600);
             }
             
